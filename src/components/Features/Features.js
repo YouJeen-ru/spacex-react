@@ -1,5 +1,5 @@
 import React from 'react';
-import {RellaxWrapper} from 'react-rellax-wrapper'
+import RellaxWrapper from 'react-rellax-wrapper'
 import './features.css'
 
 const Features = () => {
@@ -37,7 +37,7 @@ const Features = () => {
                         </tr>
                         </thead>
                     </table>
-                    {/*<RellaxWrapper speed={14}>*/}
+                    {/*<RellaxWrapper speed={5}>*/}
                     <img
                         src="img/falcon-1.png"
                         alt="rocket"
