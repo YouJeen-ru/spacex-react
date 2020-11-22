@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css'
 import logo from '../../logo.svg'
 
-const Footer = ({ elon_twitter: elonMask, flickr, twitter, website  }) => {
+const Footer = ({links:{ elon_twitter: elonMask, flickr, twitter, website  }, summary}) => {
     return (
         <>
             <footer className="footer">
@@ -28,10 +28,7 @@ const Footer = ({ elon_twitter: elonMask, flickr, twitter, website  }) => {
                     </ul>
                 </nav>
                 <p className="footer-text">
-                    For additional questions, contact
-                    <a className="footer-link" href="mailto:rideshare@spacex.com"
-                    >rideshare@spacex.com</a
-                    >
+                    {summary}
                 </p>
 
             </footer>
