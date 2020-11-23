@@ -20,10 +20,18 @@
 .details-youtube {
     margin: 0 auto;
     display: block;
+
 }
 
 .button-back {
     max-width: 200px;
     display: block;
     margin: 25px auto;
+}
+
+@media (max-width: 660px) {
+    .details-youtube {
+        max-width: 250px;
+        max-height: 250px ;
+    }
 }

@@ -11,7 +11,7 @@ const Calendar = () => {
 
     return (
         <>
-            <Main/>
+            <Main name='Calendar SpaceX'/>
             <section className="calendar">
                 <div className="container">
                     <ul className="calendar-list">
@@ -20,7 +20,7 @@ const Calendar = () => {
                                 <li className="calendar-item" key={item.id}>
                                     <article className="launches">
                                         <div className="launches-image">
-                                            <img src={item.links.patch.small} alt=""/>
+                                            <img src={item.links.patch.small} alt={item.name}/>
                                         </div>
                                         <div className="launches-content">
                                             <h2 className="launches-title">{item.name}</h2>
