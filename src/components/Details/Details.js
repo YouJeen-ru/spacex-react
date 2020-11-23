@@ -1,9 +1,11 @@
 import React from 'react';
 import './details.css'
+import Main from "../Main/Main";
 
 const Details = () => {
     return (
         <>
+            <Main/>
             <main className="details">
                 <div className="container">
                     <div className="details-row">

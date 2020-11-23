@@ -66,12 +66,11 @@ class App extends React.Component {
                 </Route>
 
                 <Route path='/calendar'>
-                    <Main/>
                     <Calendar/>
                 </Route>
 
                 <Route path='/details'>
-                    <Main/>
+
                     <Details/>
                 </Route>
                 {this.state.company && <Footer {...this.state.company}/>}

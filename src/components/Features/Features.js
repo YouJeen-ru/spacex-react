@@ -2,6 +2,7 @@ import React from 'react';
 import './features.css'
 import RellaxWrapper from "react-rellax-wrapper";
 
+
 const rocketImages = {
     'Falcon 1': 'falcon-1',
     'Falcon 9': 'falcon-9',
@@ -14,6 +15,7 @@ const Features = ({ name, height, diameter, mass, payload_weights: payloadWeight
 
     return (
         <>
+
             <section className="features">
 
                 <h2 className="features-title">
